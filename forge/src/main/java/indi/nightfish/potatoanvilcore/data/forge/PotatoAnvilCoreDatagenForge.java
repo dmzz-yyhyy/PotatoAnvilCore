@@ -1,4 +1,4 @@
-package indi.nightfish.data.forge;
+package indi.nightfish.potatoanvilcore.data.forge;
 
 
 import net.minecraft.data.DataGenerator;

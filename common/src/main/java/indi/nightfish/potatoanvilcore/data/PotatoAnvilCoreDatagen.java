@@ -1,4 +1,4 @@
-package indi.nightfish.data;
+package indi.nightfish.potatoanvilcore.data;
 
 public class PotatoAnvilCoreDatagen {
     public static void init() {

@@ -13,10 +13,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "indi.nightfish.fabric.PotatoAnvilCoreFabric"
+      "indi.nightfish.potatoanvilcore.fabric.PotatoAnvilCoreFabric"
     ],
     "fabric-datagen": [
-      "indi.nightfish.data.fabric.PotatoAnvilCoreDatagenFabric"
+      "indi.nightfish.potatoanvilcore.data.fabric.PotatoAnvilCoreDatagenFabric"
     ]
   },
   "mixins": [
