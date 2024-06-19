@@ -1,7 +1,8 @@
-package dev.anvilcraft.addon.init;
+package inid.nightfish.init;
 
 import com.tterrag.registrate.util.entry.RegistryEntry;
 import dev.dubhe.anvilcraft.api.registry.AnvilCraftRegistrate;
+import inid.nightfish.PotatoAnvilCore;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -10,13 +11,11 @@ import net.minecraft.world.item.Items;
 
 import javax.annotation.Nonnull;
 
-import static dev.anvilcraft.addon.ExampleMod.REGISTRATE;
-
 
 public class ModCreativeModeTab {
-    public static final RegistryEntry<CreativeModeTab> EXAMPLE_TAB = REGISTRATE
+    public static final RegistryEntry<CreativeModeTab> EXAMPLE_TAB = PotatoAnvilCore.REGISTRATE
             .defaultCreativeTab("example_tab", builder -> builder
-                    .displayItems(new RegistrateDisplayItemsGenerator("example_tab", REGISTRATE))
+                    .displayItems(new RegistrateDisplayItemsGenerator("example_tab", PotatoAnvilCore.REGISTRATE))
                     .icon(ModItems.EXAMPLE_ITEM::asStack)
                     .build()
             ).register();

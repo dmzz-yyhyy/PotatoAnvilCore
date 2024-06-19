@@ -1,9 +1,9 @@
-package dev.anvilcraft.addon.init;
+package inid.nightfish.init;
 
 import com.tterrag.registrate.util.entry.RegistryEntry;
 import net.minecraft.world.level.block.Block;
 
-import static dev.anvilcraft.addon.ExampleMod.REGISTRATE;
+import static inid.nightfish.PotatoAnvilCore.REGISTRATE;
 
 
 public class ModBlocks {

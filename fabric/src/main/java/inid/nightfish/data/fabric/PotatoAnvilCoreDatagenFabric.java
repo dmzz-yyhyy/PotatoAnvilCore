@@ -1,6 +1,6 @@
-package dev.anvilcraft.addon.data.fabric;
+package inid.nightfish.data.fabric;
 
-import dev.anvilcraft.addon.ExampleMod;
+import inid.nightfish.PotatoAnvilCore;
 import io.github.fabricators_of_create.porting_lib.data.ExistingFileHelper;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -8,7 +8,7 @@ import net.fabricmc.loader.api.FabricLoader;
 
 import java.nio.file.Path;
 
-public class ExampleModDatagen implements DataGeneratorEntrypoint {
+public class PotatoAnvilCoreDatagenFabric implements DataGeneratorEntrypoint {
 
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
@@ -18,6 +18,6 @@ public class ExampleModDatagen implements DataGeneratorEntrypoint {
                 rootPath.resolve("fabric").resolve("src").resolve("main").resolve("resources")
         );
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
-        ExampleMod.REGISTRATE.setupDatagen(pack, helper);
+        PotatoAnvilCore.REGISTRATE.setupDatagen(pack, helper);
     }
 }

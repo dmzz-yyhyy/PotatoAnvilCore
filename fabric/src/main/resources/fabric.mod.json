@@ -14,10 +14,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.anvilcraft.addon.fabric.ExampleModFabric"
+      "inid.night_fish.fabric.ExampleModFabric"
     ],
     "fabric-datagen": [
-      "dev.anvilcraft.addon.data.fabric.ExampleModDatagen"
+      "inid.night_fish.data.fabric.ExampleModDatagen"
     ]
   },
   "mixins": [

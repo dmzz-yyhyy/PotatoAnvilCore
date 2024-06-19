@@ -1,13 +1,13 @@
-package dev.anvilcraft.addon;
+package inid.nightfish;
 
-import dev.anvilcraft.addon.data.ExampleModDatagen;
-import dev.anvilcraft.addon.init.ModBlocks;
-import dev.anvilcraft.addon.init.ModCreativeModeTab;
-import dev.anvilcraft.addon.init.ModItems;
+import inid.nightfish.data.PotatoAnvilCoreDatagen;
+import inid.nightfish.init.ModBlocks;
+import inid.nightfish.init.ModCreativeModeTab;
+import inid.nightfish.init.ModItems;
 import dev.dubhe.anvilcraft.api.registry.AnvilCraftRegistrate;
 
-public class ExampleMod {
-    public static final String MOD_ID = "anvilcraft_addon_example";
+public class PotatoAnvilCore {
+    public static final String MOD_ID = "potato_anvil_core";
 
     public static final AnvilCraftRegistrate REGISTRATE = AnvilCraftRegistrate.create(MOD_ID);
 
@@ -18,7 +18,7 @@ public class ExampleMod {
         ModCreativeModeTab.register();
 
         // datagen init
-        ExampleModDatagen.init();
+        PotatoAnvilCoreDatagen.init();
 
         // fabric exclusive, squeeze this in here to register before stuff is used
         REGISTRATE.registerRegistrate();
