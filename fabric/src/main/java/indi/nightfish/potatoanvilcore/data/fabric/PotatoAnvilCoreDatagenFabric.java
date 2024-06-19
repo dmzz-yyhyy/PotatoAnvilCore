@@ -1,6 +1,6 @@
-package indi.nightfish.data.fabric;
+package indi.nightfish.potatoanvilcore.data.fabric;
 
-import indi.nightfish.PotatoAnvilCore;
+import indi.nightfish.potatoanvilcore.PotatoAnvilCore;
 import io.github.fabricators_of_create.porting_lib.data.ExistingFileHelper;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
