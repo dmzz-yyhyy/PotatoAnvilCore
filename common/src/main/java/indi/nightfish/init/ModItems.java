@@ -1,7 +1,7 @@
-package inid.nightfish.init;
+package indi.nightfish.init;
 
 import com.tterrag.registrate.util.entry.ItemEntry;
-import inid.nightfish.PotatoAnvilCore;
+import indi.nightfish.PotatoAnvilCore;
 import net.minecraft.world.item.Item;
 
 public class ModItems {

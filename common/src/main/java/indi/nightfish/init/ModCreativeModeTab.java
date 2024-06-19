@@ -1,8 +1,8 @@
-package inid.nightfish.init;
+package indi.nightfish.init;
 
 import com.tterrag.registrate.util.entry.RegistryEntry;
 import dev.dubhe.anvilcraft.api.registry.AnvilCraftRegistrate;
-import inid.nightfish.PotatoAnvilCore;
+import indi.nightfish.PotatoAnvilCore;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;

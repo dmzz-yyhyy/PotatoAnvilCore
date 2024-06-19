@@ -1,6 +1,6 @@
-package inid.nightfish.forge;
+package indi.nightfish.forge;
 
-import inid.nightfish.PotatoAnvilCore;
+import indi.nightfish.PotatoAnvilCore;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod(PotatoAnvilCore.MOD_ID)

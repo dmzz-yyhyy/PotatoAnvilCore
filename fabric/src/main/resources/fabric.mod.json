@@ -9,20 +9,18 @@
   "contact": {},
 
   "license": "${mod_license}",
-  "icon": "assets/anvilcraft_addon_example/textures/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "inid.night_fish.fabric.ExampleModFabric"
+      "indi.nightfish.fabric.PotatoAnvilCoreFabric"
     ],
     "fabric-datagen": [
-      "inid.night_fish.data.fabric.ExampleModDatagen"
+      "indi.nightfish.data.fabric.PotatoAnvilCoreDatagenFabric"
     ]
   },
   "mixins": [
-    "anvilcraft_addon_example.mixins.json",
-    "anvilcraft_addon_example-common.mixins.json"
+    "potato_anvil_core.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.7",

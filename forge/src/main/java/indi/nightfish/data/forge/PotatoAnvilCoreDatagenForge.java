@@ -1,4 +1,4 @@
-package inid.nightfish.data.forge;
+package indi.nightfish.data.forge;
 
 
 import net.minecraft.data.DataGenerator;

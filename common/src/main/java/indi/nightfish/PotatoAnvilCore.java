@@ -1,9 +1,9 @@
-package inid.nightfish;
+package indi.nightfish;
 
-import inid.nightfish.data.PotatoAnvilCoreDatagen;
-import inid.nightfish.init.ModBlocks;
-import inid.nightfish.init.ModCreativeModeTab;
-import inid.nightfish.init.ModItems;
+import indi.nightfish.data.PotatoAnvilCoreDatagen;
+import indi.nightfish.init.ModBlocks;
+import indi.nightfish.init.ModCreativeModeTab;
+import indi.nightfish.init.ModItems;
 import dev.dubhe.anvilcraft.api.registry.AnvilCraftRegistrate;
 
 public class PotatoAnvilCore {
